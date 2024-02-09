@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_resources"
+        android:icon="@drawable/ic_resources"
+        android:title="Resources" />
+    <item
+        android:id="@+id/navigation_challenges"
+        android:icon="@drawable/ic_challenge"
+        android:title="Challenges" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_user"
+        android:title="Profile" />
+</menu>

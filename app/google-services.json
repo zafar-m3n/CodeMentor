@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "221815887328",
+    "project_id": "codementor-6e6f5",
+    "storage_bucket": "codementor-6e6f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221815887328:android:1bc2f696e4a5a6749a0785",
+        "android_client_info": {
+          "package_name": "com.example.codementor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBw4CLLsS0GLeEv0iKSNArrjZG_tpla_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
