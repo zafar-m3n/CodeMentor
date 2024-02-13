@@ -25,13 +25,13 @@
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textColor="@color/light_gray"/>
+            android:textColor="?attr/colorOnBackground"/>
 
         <TextView
             android:id="@+id/resourceCategory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/light_gray"
+            android:textColor="?attr/colorOnBackground"
             android:textSize="12sp" />
     </LinearLayout>
 </LinearLayout>

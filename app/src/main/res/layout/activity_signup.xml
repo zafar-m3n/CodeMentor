@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dark_gray"
     tools:context=".SignUpActivity">
 
     <LinearLayout
@@ -30,8 +29,8 @@
             android:layout_height="wrap_content"
             android:hint="Name"
             android:inputType="textPersonName"
-            android:textColor="@color/light_gray"
-            android:backgroundTint="@color/electric_blue"
+            android:textColor="?attr/colorOnBackground"
+            android:backgroundTint="?attr/colorPrimary"
             android:layout_marginTop="24dp"/>
 
         <EditText
@@ -40,8 +39,8 @@
             android:layout_height="wrap_content"
             android:hint="Email"
             android:inputType="textEmailAddress"
-            android:textColor="@color/light_gray"
-            android:backgroundTint="@color/electric_blue"
+            android:textColor="?attr/colorOnBackground"
+            android:backgroundTint="?attr/colorPrimary"
             android:layout_marginTop="16dp"/>
 
         <EditText
@@ -50,8 +49,8 @@
             android:layout_height="wrap_content"
             android:hint="Username"
             android:inputType="text"
-            android:textColor="@color/light_gray"
-            android:backgroundTint="@color/electric_blue"
+            android:textColor="?attr/colorOnBackground"
+            android:backgroundTint="?attr/colorPrimary"
             android:layout_marginTop="16dp"/>
 
         <EditText
@@ -60,8 +59,8 @@
             android:layout_height="wrap_content"
             android:hint="Password"
             android:inputType="textPassword"
-            android:textColor="@color/light_gray"
-            android:backgroundTint="@color/electric_blue"
+            android:textColor="?attr/colorOnBackground"
+            android:backgroundTint="?attr/colorPrimary"
             android:layout_marginTop="16dp"/>
 
         <Button
@@ -71,8 +70,6 @@
             android:text="Sign Up"
             android:onClick="signUpUser"
             android:layout_gravity="center_horizontal"
-            android:backgroundTint="@color/electric_blue"
-            android:textColor="@color/white"
             android:layout_marginTop="24dp"/>
         <LinearLayout
             android:layout_width="match_parent"
@@ -85,7 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Already have an account? "
-                android:textColor="@color/light_gray"
+                android:textColor="?attr/colorOnBackground"
                 />
 
             <TextView
@@ -93,7 +90,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sign In"
-                android:textColor="@color/sky_blue"
+                android:textColor="?attr/colorPrimary"
                 android:onClick="signIn"
                 />
         </LinearLayout>

@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dark_gray"
     tools:context=".ResourceDetailActivity">
 
     <ScrollView
@@ -35,7 +34,7 @@
                 android:layout_weight="1"
                 android:textSize="24dp"
                 android:textStyle="bold"
-                android:textColor="@color/light_gray"
+                android:textColor="?attr/colorOnBackground"
                 android:gravity="start"/>
 
             <TextView
@@ -45,7 +44,7 @@
                 android:layout_weight="1"
                 android:text="Read Aloud"
                 android:textSize="16sp"
-                android:textColor="@color/sky_blue"
+                android:textColor="?attr/colorPrimary"
                 android:gravity="end"/>
         </LinearLayout>
 

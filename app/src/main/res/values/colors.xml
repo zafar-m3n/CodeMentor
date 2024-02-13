@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <!-- Light Mode Colors -->
-    <color name="deep_blue">#0A2540</color>
-    <color name="electric_blue">#007BFF</color>
-    <color name="cool_gray">#3C4858</color>
-    <color name="neon_green">#29FD53</color>
-    <color name="light_gray">#D3D3D3</color>
-
-    <!-- Dark Mode Colors -->
-    <color name="dark_mode_light_gray">#F0F0F0</color>
-    <color name="sky_blue">#7FBCD2</color>
     <color name="white">#FFFFFF</color>
-    <color name="bright_red">#FF3B30</color>
+    <!-- Light Mode Colors -->
+    <color name="light_gray">#D3D3D3</color>
+    <color name="light_blue">#008FFF</color>
+    <color name="light_red">#FF5436</color>
+    <color name="light_yellow">#E39801</color>
+    <color name="light_green">#309054</color>
+
+    <!--    Dark Mode Colors-->
     <color name="dark_gray">#333333</color>
+    <color name="dark_blue">#45ADFF</color>
+    <color name="dark_red">#FF8975</color>
+    <color name="dark_yellow">#F1C40F</color>
+    <color name="dark_green">#44CC77</color>
 </resources>
